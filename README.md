@@ -1,16 +1,29 @@
-# flex_server
+# FLEX---Fresh-Latest-Exclusive---Server-Side
+FLEX adalah aplikasi berita modern yang menyediakan informasi terbaru dari berbagai sumber, dilengkapi dengan grafik interaktif dan notifikasi realtime.
+## Tangkapan Layar
 
-A new Flutter project.
+![Beranda](screenshots/home_screen.png)
+![Tambah Berita](screenshots/add_news.png)
 
-## Getting Started
+## Fitur
+- CRUD berita dengan Firebase Firestore
+- Grafik distribusi berita menggunakan `fl_chart`
+- Notifikasi realtime dengan Firebase Cloud Messaging (FCM)
+- Tampilan responsif dan intuitif
+- Integrasi data dari API publik
 
-This project is a starting point for a Flutter application.
+## Instalasi
+1. Clone repositori ini:
+   ```bash
+   git clone https://github.com/username/FLEX.git
+   cd FLEX
+   flutter pub get
+   *Tambahkan file google-services.json (untuk Android) dan GoogleService-Info.plist (untuk iOS) di direktori proyek.*
+   flutter run
 
-A few resources to get you started if this is your first Flutter project:
+## Tim Pengembang
+- Dimas Bratakusumah (Backend Developer)
+- Figo (Frontend Developer)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Demo
+[Klik di sini untuk melihat demo aplikasi](https://youtu.be/7RgYnB9y8Ak)
